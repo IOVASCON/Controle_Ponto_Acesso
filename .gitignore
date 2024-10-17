@@ -1,0 +1,23 @@
+# Ignorar arquivos de compilação e IDEs
+/build/
+.gradle/
+*.class
+*.log
+*.jar
+*.war
+*.iml
+
+# Ignorar arquivos temporários do sistema
+*.swp
+*.DS_Store
+*.idea/
+
+# Ignorar arquivos de configurações do VSCode
+.vscode/
+
+# Ignorar pastas específicas de dependências
+/node_modules/
+target/
+
+# Permitir PNGs
+!*.png
